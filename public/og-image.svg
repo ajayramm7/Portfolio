@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="90" y="86" width="1020" height="458" rx="32" fill="#111827"/>
+  <circle cx="970" cy="180" r="80" fill="#0891b2"/>
+  <circle cx="1030" cy="430" r="112" fill="#14b8a6"/>
+  <text x="150" y="250" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Ajay Ram</text>
+  <text x="150" y="330" fill="#67e8f9" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">Engineering Student &amp; Full-Stack Developer</text>
+  <text x="150" y="405" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="28">React • Node.js • Express • MongoDB</text>
+</svg>
