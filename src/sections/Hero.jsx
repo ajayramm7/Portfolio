@@ -16,7 +16,7 @@ export default function Hero() {
           transition={{ duration: 0.65 }}
         >
           <p className="mb-4 inline-flex rounded-lg border border-brand-100 bg-white px-3 py-2 text-sm font-semibold text-brand-700 shadow-sm dark:border-cyan-300/20 dark:bg-slate-900 dark:text-cyan-200">
-            Available for internships, projects, and collaborations
+            Open to internships, freelance work, and full-stack projects
           </p>
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-ink dark:text-white sm:text-5xl lg:text-6xl">
             {profile.name}
@@ -80,11 +80,11 @@ export default function Hero() {
             </div>
             <pre className="overflow-hidden rounded-lg bg-slate-950 p-5 text-sm leading-7 text-slate-100">
               <code>{`const developer = {
-  name: 'Ajay Ram',
+  name: 'Ajayram',
   stack: ['React', 'Node', 'Express', 'MongoDB'],
-  builds: 'clean full-stack products',
+  strength: 'turning ideas into usable products',
   currentlyLearning: ['DSA', 'System Design'],
-  goal: 'ship useful software'
+  goal: 'build reliable software that people enjoy'
 };`}</code>
             </pre>
             <div className="mt-5 grid grid-cols-3 gap-3">

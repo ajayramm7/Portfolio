@@ -9,7 +9,7 @@ export default function Projects() {
       id="projects"
       eyebrow="Projects"
       title="Selected full-stack and learning-focused builds."
-      description="Each project is structured with sample links that can be replaced with your real repositories and deployed demos."
+      description="A focused collection of projects showing backend logic, responsive interfaces, database-driven workflows, and interactive learning tools."
     >
       <div className="grid gap-6 lg:grid-cols-3">
         {projects.map(({ title, description, tech, github, live, icon: Icon }, index) => (

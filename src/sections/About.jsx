@@ -8,7 +8,7 @@ export default function About() {
       id="about"
       eyebrow="About Me"
       title="A practical developer with an engineering mindset."
-      description="I am an engineering student focused on full-stack development, problem solving, and building polished applications that are easy to use and simple to maintain."
+      description="I am a B.Tech Computer Science Engineering student at NIT Delhi, started in 2023, focused on full-stack development, problem solving, and building polished applications that balance clean user experience with maintainable engineering."
     >
       <div className="grid gap-5 md:grid-cols-3">
         {aboutCards.map(({ title, description, icon: Icon }, index) => (

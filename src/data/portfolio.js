@@ -16,9 +16,9 @@ import {
 
 export const profile = {
   name: "Ajayram",
-  title: "Engineering Student & Full-Stack Developer",
+  title: "B.Tech CSE Student at NIT Delhi & Full-Stack Developer",
   intro:
-    "I build practical, responsive web applications with clean interfaces, reliable backends, and a strong focus on real user workflows.",
+    "I am a B.Tech Computer Science Engineering student at NIT Delhi who designs and builds responsive full-stack applications with clean interfaces, reliable APIs, and user-focused product thinking.",
   email: "ajayramm7@gmail.com",
   location: "India",
   resume: "/resume.pdf",
@@ -37,14 +37,14 @@ export const navLinks = [
 export const highlights = [
   { label: 'Projects Built', value: '03+' },
   { label: 'Core Stack', value: 'MERN' },
-  { label: 'Focus', value: 'Full-Stack' }
+  { label: 'Focus', value: 'Product UI' }
 ];
 
 export const aboutCards = [
   {
-    title: 'Engineering Foundation',
+    title: 'CSE Foundation',
     description:
-      'Strong interest in data structures, algorithms, operating systems, databases, and software engineering fundamentals.',
+      'Pursuing B.Tech in Computer Science Engineering at NIT Delhi since 2023, with a strong interest in data structures, algorithms, operating systems, databases, and software engineering fundamentals.',
     icon: GraduationCap
   },
   {
@@ -116,17 +116,17 @@ export const projects = [
 
 export const achievements = [
   {
-    title: 'Academic Project Builder',
-    period: '2024 - Present',
+    title: 'B.Tech CSE Student, NIT Delhi',
+    period: '2023 - Present',
     description:
-      'Designed and implemented full-stack college projects using React, Node.js, Express, MongoDB, and Git-based workflows.',
+      'Pursuing Computer Science Engineering while building academic and personal full-stack projects using React, Node.js, Express, MongoDB, and Git-based workflows.',
     icon: BookOpen
   },
   {
-    title: 'Open Achievement Slot',
-    period: 'Add latest award',
+    title: 'Continuous Learning',
+    period: 'Ongoing',
     description:
-      'Use this placeholder for hackathons, internships, certifications, coding contests, technical talks, or campus leadership.',
+      'Actively strengthening data structures, system design basics, backend architecture, and production-ready frontend development.',
     icon: Award
   }
 ];

@@ -12,7 +12,7 @@ export default function Navbar({ theme, onToggleTheme }) {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-6 lg:px-8">
         <a href="#home" className="flex items-center gap-3 font-semibold" onClick={closeMenu}>
           <span className="grid h-9 w-9 place-items-center rounded-lg bg-ink text-sm font-bold text-white dark:bg-cyan-300 dark:text-slate-950">
-            AR
+            A
           </span>
           <span className="text-sm text-slate-800 dark:text-slate-100 sm:text-base">
             {profile.name}

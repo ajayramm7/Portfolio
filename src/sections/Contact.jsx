@@ -9,7 +9,7 @@ export default function Contact() {
       id="contact"
       eyebrow="Contact"
       title="Let’s build something useful."
-      description="Use the form layout below for a static portfolio, or connect it to Formspree, Netlify Forms, EmailJS, or an Express backend when you deploy."
+      description="Open to internship opportunities, collaborations, freelance projects, and conversations around full-stack development."
     >
       <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
         <motion.div

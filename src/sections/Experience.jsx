@@ -7,8 +7,8 @@ export default function Experience() {
     <Section
       id="experience"
       eyebrow="Experience & Achievements"
-      title="A clean structure ready for real milestones."
-      description="Add internships, certifications, hackathon wins, open-source contributions, or leadership roles as your portfolio grows."
+      title="Growing through projects, practice, and consistent learning."
+      description="A dedicated space for academic milestones, certifications, hackathons, internships, and technical achievements."
       className="bg-white dark:bg-slate-900/40"
     >
       <div className="grid gap-5 md:grid-cols-2">
