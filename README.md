@@ -1,6 +1,8 @@
-# Engineering Portfolio
+# Ajayram Meena | Full-Stack Developer & Engineering Student
 
-A deployment-ready portfolio website for an engineering student and full-stack developer, built with React, Tailwind CSS, Framer Motion, and lucide icons.
+Welcome to the source code of my personal portfolio! I'm **Ajayram Meena**, a B.Tech Computer Science Engineering student at NIT Delhi. I specialize in building responsive, full-stack web applications.
+
+This portfolio is built with modern web technologies including **React**, **Tailwind CSS**, **Framer Motion**, and **Lucide Icons**, and is fully deployed on Vercel.
 
 ## Run Locally
 
@@ -27,15 +29,3 @@ npm run preview
    - Output directory: `dist`
 4. Deploy.
 
-## Deploy To Netlify
-
-1. Push this project to GitHub.
-2. Create a new site from Git in Netlify.
-3. Set:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-4. Deploy.
-
-## Customize
-
-Update portfolio content in `src/data/portfolio.js`. Replace `public/resume.pdf` with your actual resume when ready.
