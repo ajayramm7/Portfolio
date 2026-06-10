@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Send } from 'lucide-react';
+import { Send, Mail } from 'lucide-react';
 import Section from '../components/Section.jsx';
 import { profile, socials } from '../data/portfolio.js';
 
@@ -24,12 +24,20 @@ export default function Contact() {
             I am open to internships, freelance builds, academic collaborations, and full-stack
             project opportunities.
           </p>
-          <a
-            href={`mailto:${profile.email}`}
-            className="mt-6 inline-flex text-sm font-semibold text-brand-700 hover:underline dark:text-cyan-300"
-          >
-            {profile.email}
-          </a>
+          <div className="mt-8 flex items-center gap-4 rounded-xl border border-slate-200 bg-slate-50 p-4 transition-colors hover:border-brand-200 hover:bg-brand-50 dark:border-slate-800 dark:bg-slate-900/50 dark:hover:border-cyan-900/50 dark:hover:bg-cyan-900/10">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white text-brand-700 shadow-sm dark:bg-cyan-900/30 dark:text-cyan-300">
+              <Mail size={20} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Email Me</span>
+              <a
+                href={`mailto:${profile.email}`}
+                className="mt-0.5 text-sm font-bold text-ink hover:text-brand-700 hover:underline dark:text-white dark:hover:text-cyan-300"
+              >
+                {profile.email}
+              </a>
+            </div>
+          </div>
           <div className="mt-6 flex flex-wrap gap-3">
             {socials.map(({ label, href, icon: Icon }) => (
               <a

@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 export const profile = {
-  name: "Ajayram",
+  name: "Ajayram Meena",
   title: "B.Tech CSE Student at NIT Delhi & Full-Stack Developer",
   intro:
     "I am a B.Tech Computer Science Engineering student at NIT Delhi who designs and builds responsive full-stack applications with clean interfaces, reliable APIs, and user-focused product thinking.",
@@ -65,7 +65,7 @@ export const skills = [
   {
     category: 'Languages',
     icon: Code2,
-    items: ['C', 'C++', 'JavaScript']
+    items: ['C', 'C++', 'Python', 'JavaScript']
   },
   {
     category: 'Frontend',
@@ -73,60 +73,60 @@ export const skills = [
     items: ['React.js', 'Tailwind CSS', 'Responsive UI', 'Framer Motion']
   },
   {
-    category: 'Backend',
+    category: 'Backend & ML',
     icon: Server,
-    items: ['Node.js', 'Express', 'REST APIs', 'Authentication']
+    items: ['Node.js', 'Express', 'Flask', 'Scikit-Learn']
   },
   {
     category: 'Database & Tools',
     icon: Database,
-    items: ['MongoDB', 'Git', 'GitHub', 'Deployment']
+    items: ['MongoDB', 'WebRTC', 'Git', 'GitHub']
   }
 ];
 
 export const projects = [
   {
-    title: 'Doctor Appointment & Consultation System',
+    title: 'FakeBuster (Fake News & Spam Detection Platform)',
     description:
-      'A healthcare platform for booking appointments, video consultations, doctor dashboards, and downloadable PDF prescriptions.',
-    tech: ['Node.js', 'Express', 'MongoDB', 'WebRTC', 'PDFKit'],
-    github: 'https://github.com/ajayramm7/doctor-appointment-system',
-    live: 'https://doctor-appointment-demo.vercel.app',
-    icon: Network
-  },
-  {
-    title: 'Mentor-Mentee Management System',
-    description:
-      'A role-based academic mentoring app for assigning mentors, tracking meetings, sharing notes, and monitoring student progress.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
-    github: 'https://github.com/ajayramm7/mentor-mentee-system',
-    live: 'https://mentor-mentee-demo.vercel.app',
-    icon: Users
-  },
-  {
-    title: 'Algorithm Visualizer',
-    description:
-      'Interactive visualizations for sorting and pathfinding algorithms with step controls, speed settings, and clean learning states.',
-    tech: ['React', 'JavaScript', 'Tailwind CSS'],
-    github: 'https://github.com/ajayramm7/algorithm-visualizer',
-    live: 'https://algorithm-visualizer-demo.vercel.app',
+      'Architected a full-stack platform using React, Node.js, and MongoDB, communicating with a Python ML microservice using Scikit-Learn to provide real-time fake news and spam classification with predictive risk scores.',
+    tech: ['MERN Stack', 'Python', 'Scikit-Learn', 'Flask'],
+    github: 'https://github.com/ajayramm7/fakebuster-detection-platform',
+    live: '',
     icon: BrainCircuit
+  },
+  {
+    title: 'SafeTrack (Digital Incident & Near-Miss Reporting System)',
+    description:
+      'Developed a full-stack safety reporting platform with role-based access control (RBAC), JWT authentication, Multer for evidence uploads, and dynamic dashboard analytics utilizing Chart.js.',
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'Chart.js', 'JWT'],
+    github: 'https://github.com/ajayramm7/safetrack-incident-reporting-system',
+    live: '',
+    icon: Database
+  },
+  {
+    title: 'Doctor Sahab (Healthcare Consultation System)',
+    description:
+      'Developed a full-stack healthcare platform with secure authentication, real-time video consultation using WebRTC, appointment scheduling, and automated prescription generation.',
+    tech: ['Node.js', 'Express.js', 'WebRTC', 'MongoDB'],
+    github: 'https://github.com/ajayramm7/doctor-sahab-healthcare-system',
+    live: '',
+    icon: Users
   }
 ];
 
 export const achievements = [
   {
-    title: 'B.Tech CSE Student, NIT Delhi',
+    title: 'Strong Foundation in CS',
     period: '2023 - Present',
     description:
-      'Pursuing Computer Science Engineering while building academic and personal full-stack projects using React, Node.js, Express, MongoDB, and Git-based workflows.',
+      'Strong foundation in Data Structures and Algorithms with consistent problem-solving practice and coursework in OOP, DBMS, OS, and Computer Networks.',
     icon: BookOpen
   },
   {
-    title: 'Continuous Learning',
+    title: 'Project Development',
     period: 'Ongoing',
     description:
-      'Actively strengthening data structures, system design basics, backend architecture, and production-ready frontend development.',
+      'Built multiple real-world full-stack and Machine Learning projects demonstrating a strong ability to translate requirements into usable interfaces and reliable APIs.',
     icon: Award
   }
 ];
