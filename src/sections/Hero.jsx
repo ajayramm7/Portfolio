@@ -15,7 +15,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.65 }}
         >
-          <p className="mb-4 inline-flex rounded-lg border border-brand-100 bg-white px-3 py-2 text-sm font-semibold text-brand-700 shadow-sm dark:border-cyan-300/20 dark:bg-slate-900 dark:text-cyan-200">
+          <p className="mb-4 inline-block rounded-lg border border-brand-100 bg-white px-3 py-2 text-sm font-semibold leading-relaxed text-brand-700 shadow-sm dark:border-cyan-300/20 dark:bg-slate-900 dark:text-cyan-200">
             Open to internships, freelance work, and full-stack projects
           </p>
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-ink dark:text-white sm:text-5xl lg:text-6xl">
@@ -67,7 +67,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          className="relative"
+          className="relative w-full min-w-0"
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.65, delay: 0.15 }}
@@ -78,7 +78,7 @@ export default function Hero() {
               <span className="h-3 w-3 rounded-full bg-amber-400" />
               <span className="h-3 w-3 rounded-full bg-emerald-400" />
             </div>
-            <pre className="overflow-hidden rounded-lg bg-slate-950 p-5 text-sm leading-7 text-slate-100">
+            <pre className="overflow-x-auto rounded-lg bg-slate-950 p-5 text-sm leading-7 text-slate-100">
               <code>{`const developer = {
   name: 'Ajayram',
   stack: ['React', 'Node', 'Express', 'MongoDB'],

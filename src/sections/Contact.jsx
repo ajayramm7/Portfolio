@@ -32,7 +32,7 @@ export default function Contact() {
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Email Me</span>
               <a
                 href={`mailto:${profile.email}`}
-                className="mt-0.5 text-sm font-bold text-ink hover:text-brand-700 hover:underline dark:text-white dark:hover:text-cyan-300"
+                className="mt-0.5 break-all text-sm font-bold text-ink hover:text-brand-700 hover:underline dark:text-white dark:hover:text-cyan-300"
               >
                 {profile.email}
               </a>
